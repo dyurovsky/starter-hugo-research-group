@@ -5,10 +5,10 @@
 
 # Appearance
 
-theme: minimal
+theme: callab
 day_night: false
-font: native
-font_size: L
+font: callab
+font_size: M
 
 # SEO
 
@@ -20,23 +20,23 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: callab@andrew.cmu.edu
+phone: (312) 600-7319
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
+  street: 4825 Frew St
+  city: Pittsburgh
+  region: PA
+  postcode: '15213'
   country: United States
   country_code: US
 coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
+  latitude: '40.44113'
+  longitude: '-79.94375'
+# directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+# office_hours:
+#   - 'Monday 10:00 to 13:00'
+#   - 'Wednesday 09:00 to 10:00'
+# appointment_url: 'https://calendly.com'
 contact_links:
 #  - icon: comments
 #    icon_pack: fas
@@ -50,9 +50,9 @@ main_menu:
   align: r
   show_logo: true
   show_language: false
-  show_day_night: true
-  show_search: true
-  highlight_active_link: false
+  show_day_night: false
+  show_search: false
+  highlight_active_link: true
 
 # Localization
 
@@ -75,10 +75,10 @@ reading_time: true
 section_pager: false
 sharing: true
 copyright_license:
-  enable: false
-  allow_derivatives: false
+  enable: true
+  allow_derivatives: true
   share_alike: true
-  allow_commercial: false
+  allow_commercial: true
   notice: 'This work is licensed under {license}'
 plugins_js: []
 avatar:
@@ -113,7 +113,7 @@ search:
     index_name: ''
     show_logo: false
 map:
-  provider: mapnik
+  provider: google
   api_key: ''
   zoom: 15
 marketing:
